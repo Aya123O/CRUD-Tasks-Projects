@@ -49,6 +49,9 @@ app.use((req , res , next) => {
 })
 app.use('/tasks' , tasksRoute)
 app.use('/auth' , authRoute)
+app.get('/test' , (req , res , next) => {
+    res.status(200).json({message : "Hello from the other side"})
+})
 
 app.use((error, req, res, next) => {
     const status = error.statusCode || 500;
