@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for crud-task on 2026-01-13T11:26:21Z
+# fly.toml app configuration file generated for crud-tasks-project on 2026-01-13T11:54:13Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'crud-task'
+app = 'crud-tasks-project'
 primary_region = 'cdg'
 
 [build]
